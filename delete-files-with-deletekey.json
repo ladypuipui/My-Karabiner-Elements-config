@@ -1,21 +1,23 @@
 {
-
+    
     "//": "作成中！⌘-Tabでアプリを選択→karabiner-EventViewerのFrontmost Application画面でアプリ名かか確認",
 
-
+    
     "title": "FinderであればDeleteキーでファイル削除",
-    "conditions": [{
-        "type": "frontmost_application_if",
-        "bundle_identifiers": [""]
-    }],
+
     "rules": [{
+        "description": "FinderであればDeleteキーでファイル削除",
         "manipulators": [{
             "type": "basic",
-            "from": { "key_code": "delete" },
-            "to": [
-                { "key_code": "command" },
-                { "key_code": "delete" }
-            ]
+            "from": { "key_code": "delete_forward" },
+            "to": [{
+                "modifiers": ["command"],
+                "key_code": "delete_or_backspace"
+            }]
         }]
+    }],
+    "conditions": [{
+        "type": "frontmost_application_if",
+        "bundle_identifiers": ["^com\\.apple\\.finder$"]
     }]
 }
