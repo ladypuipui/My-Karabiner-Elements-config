@@ -9,23 +9,23 @@ Karabiner-Json file to realize your favorite key binding with Elements!
 
 ### capskey-toggle-to-en-and-ja.json
 
-capskeyで英語と日本語を切り替えるための設定ファイルです。
-Windowsのキーボードや、MacのUSキーボードで実現できるが、　　
-MacのJISキーボードでは実現できない不便さを解消します。　　
+capskeyで英語と日本語を切り替えるための設定ファイルです。  
+Windowsのキーボードや、MacのUSキーボードで実現できるが、  　
+MacのJISキーボードでは実現できない不便さを解消します。  
 
-This is a configuration file for switching between English and Japanese with capskey.　　
-It can be achieved with a Windows keyboard or a Mac US keyboard,　　
-It eliminates the inconvenience that cannot be realized with the JIS keyboard of Mac.
+This is a configuration file for switching between English and Japanese with capskey.  
+It can be achieved with a Windows keyboard or a Mac US keyboard,  
+It eliminates the inconvenience that cannot be realized with the JIS keyboard of Mac.  
 
 ### delete-files-with-deletekey.json
 
-DeletekキーでFinder上のファイルを削除することができるようにするための設定ファイルです。　　
-Windowsのキーボードで実現できるが、Macのキーボードでは実現できない不便さを解消します。　　
-なお、この機能はFinderでのみ機能します。　　
+DeletekキーでFinder上のファイルを削除することができるようにするための設定ファイルです。  
+Windowsのキーボードで実現できるが、Macのキーボードでは実現できない不便さを解消します。  　
+なお、この機能はFinderでのみ機能します。  
 
-This is a configuration file that allows you to delete files in the Finder with the Deletek key.　　
-It eliminates the inconvenience that can be achieved with a Windows keyboard but not with a Mac keyboard.　　
-Please note that this feature only works in the Finder.　　
+This is a configuration file that allows you to delete files in the Finder with the Deletek key.  
+It eliminates the inconvenience that can be achieved with a Windows keyboard but not with a Mac keyboard.  
+Please note that this feature only works in the Finder.  
 　
 ## 使い方(How to Use)
 
