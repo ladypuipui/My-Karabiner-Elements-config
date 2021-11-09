@@ -1,6 +1,6 @@
 # My-Karabiner-Elements-config
 
-[Karabiner-Elements](https://karabiner-elements.pqrs.org/)で、  　　
+[Karabiner-Elements](https://karabiner-elements.pqrs.org/)で、
 好みのキーバインドを実現するためのjsonファイルです!　　
 
 Karabiner-Json file to realize your favorite key binding with Elements!
