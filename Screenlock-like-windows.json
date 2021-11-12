@@ -1,0 +1,30 @@
+{
+    "title": "Windowsみたいに画面ロック(Screenlock like windows)",
+    "rules": [
+        {
+            "description": "Windowsみたいに画面ロック(Screenlock like windows)",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "l",
+                        "modifiers": {
+                            "mandatory": [
+                                "option"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "q",
+                            "modifiers": [
+                                "left_control",
+                                "left_command"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
