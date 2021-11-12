@@ -1,27 +1,54 @@
 {
-    "title": "日本語環境でもCapsキーで英数と日本語を切り替えられるようにする",
-    "rules": [{
-        "description": "Capsキーで入力をトグルできるようにする",
-        "manipulators": [{
-                "type": "basic",
-                "description": "入力ソースがenの場合、jaにする",
-                "from": { "key_code": "caps_lock" },
-                "to": [{ "key_code": "japanese_kana" }],
-                "conditions": [{
-                    "type": "input_source_if",
-                    "input_sources": [{ "language": "en" }]
-                }]
-            },
-            {
-                "type": "basic",
-                "description": "入力ソースがjaの場合、enにする",
-                "from": { "key_code": "caps_lock" },
-                "to": [{ "key_code": "japanese_eisuu" }],
-                "conditions": [{
-                    "type": "input_source_if",
-                    "input_sources": [{ "language": "ja" }]
-                }]
-            }
-        ]
-    }]
+    "title": "日本語環境でもCapsキーで英数と日本語を切り替えられるようにする(Caps key allows you to switch between alphanumeric and Japanese)",
+    "rules": [
+        {
+            "description": "Capsキーで入力をトグルできるようにする(Allow input to toggle with Caps key)",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "description": "入力ソースがenの場合、jaにする(If the input source is en, set it to ja)",
+                    "from": {
+                        "key_code": "caps_lock"
+                    },
+                    "to": [
+                        {
+                            "key_code": "japanese_kana"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "input_source_if",
+                            "input_sources": [
+                                {
+                                    "language": "en"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "description": "入力ソースがjaの場合、enにする(If the input source is ja, set it to en)",
+                    "from": {
+                        "key_code": "caps_lock"
+                    },
+                    "to": [
+                        {
+                            "key_code": "japanese_eisuu"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "input_source_if",
+                            "input_sources": [
+                                {
+                                    "language": "ja"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

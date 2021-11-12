@@ -1,18 +1,32 @@
-{   
-    "title": "FinderであればDeleteキーでファイル削除",
-    "rules": [{
-        "description": "FinderであればDeleteキーでファイル削除",
-        "manipulators": [{
-            "type": "basic",
-            "from": { "key_code": "delete_forward" },
-            "to": [{
-                "modifiers": ["command"],
-                "key_code": "delete_or_backspace"
-            }],
-            "conditions": [{
-                "type": "frontmost_application_if",
-                "bundle_identifiers": ["^com\\.apple\\.finder$"]
-            }]
-        }]
-    }]
+{
+    "title": "FinderであればDeleteキーでファイル削除(If it is Finder, delete the file with the Delete key.)",
+    "rules": [
+        {
+            "description": "Deleteキーでファイル削除(delete the file with the Delete key.)",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "delete_forward"
+                    },
+                    "to": [
+                        {
+                            "modifiers": [
+                                "command"
+                            ],
+                            "key_code": "delete_or_backspace"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "bundle_identifiers": [
+                                "^com\\.apple\\.finder$"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
