@@ -8,14 +8,14 @@ Karabiner-Json file to realize your favorite key binding with Elements!
 # 設定準備(Setting preparation)
 Karabiner-Elementsの「simple modification」で以下のように予めキーバインドを設定しておきます。
 
-left-ctrl →　commandキーとなるようにする
-Windows　→　optionキーとなるようにする
+* left-ctrl →　commandキーとなるようにする
+* Windows　→　optionキーとなるようにする
 
 
 Set the key binding in advance as follows in "simple modification" of Karabiner-Elements.
 
-left-ctrl → Make it a command key
-Windows → Make it an option key
+* left-ctrl → Make it a command key
+* Windows → Make it an option key
 
 # 機能紹介(Function introduction)
 
