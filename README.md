@@ -5,6 +5,18 @@
 
 Karabiner-Json file to realize your favorite key binding with Elements!
 
+# 設定準備(Setting preparation)
+Karabiner-Elementsの「simple modification」で以下のように予めキーバインドを設定しておきます。
+
+left-ctrl →　commandキーとなるようにする
+Windows　→　optionキーとなるようにする
+
+
+Set the key binding in advance as follows in "simple modification" of Karabiner-Elements.
+
+left-ctrl → Make it a command key
+Windows → Make it an option key
+
 # 機能紹介(Function introduction)
 
 ## capskey-toggle-to-en-and-ja.json
@@ -38,6 +50,13 @@ You can lock the screen with the Option key and L key.
 The author assigned the Option key to the Windows key on the keyboard, so do so,  
 The screen can be locked with the same key as Windows.  
 Customize which key you press as needed.  
+
+
+## use-chromeDevtool-like-windows.json
+
+Chromeのデベロッパーツールをwindowsと同じCrtl+Shit+iで使うことができます。  
+
+You can use Chrome's developer tools with the same Crtl + Shit + i as windows.
 
 # 使い方(How to Use)
 
