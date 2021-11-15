@@ -1,0 +1,39 @@
+{
+    "title": "WindowsみたいにChromeのデベロッパーツールを起動する(Screenlock like windows)",
+    "rules": [
+        {
+            "description": "Ctrl+Shift+Iで起動",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "i",
+                        "modifiers": {
+                            "mandatory": [
+                                "command",
+                                "shift"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "i",
+                            "modifiers": [
+                                "left_command",
+                                "left_option"
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "bundle_identifiers": [
+                                "^com\\.google\\.Chrome"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
