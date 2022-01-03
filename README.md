@@ -64,3 +64,7 @@ You can use Chrome's developer tools with the same Crtl + Shit + i as windows.
 
 
 Place the file in `~ / .config / karabiner / assets / complex_modifications` and enable it from` Complex Modifications`
+
+# Reference
+[Karabiner-Elementsで英数/かなの切り替えをトグルにしてみた。](https://yamaimo.hatenablog.jp/entry/2018/01/14/200000)
+[快適キーボード操作のためのキーカスタマイズ ～Mac編～](https://knowledge.sakura.ad.jp/23355/)
