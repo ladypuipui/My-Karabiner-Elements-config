@@ -17,6 +17,11 @@ Set the key binding in advance as follows in "simple modification" of Karabiner-
 * left-ctrl → Make it a command key
 * Windows → Make it an option key
 
+| From key | To key |
+| --- | --- |
+| left_command | left_option |
+| left_control | left_command |
+
 # 機能紹介(Function introduction)
 
 ## capskey-toggle-to-en-and-ja.json
